@@ -1,0 +1,171 @@
+languageCode: en-us
+baseURL: "https://adrn-mm.github.io/"
+title: Adrian Maulana Muhammad
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Adrian Maulana Muhammad
+  description: "A math graduate from ITS and a passionate data engineer and data scientist who transforms raw data into impactful insights that drive business success."
+  keywords: [Adrian Maulana Muhammad, Portfolio, Data Engineer, Data Scientist, Data Analytics]
+  #author: Adrian Maulana M.
+  # author: ["Me", "You"] # multiple authors
+  #images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark # dark, light
+  disableThemeToggle: true
+  math: True
+  TocSide: 'right'
+
+  assets:
+    disableHLJS: true 
+    favicon: "/assets/favicon.ico"
+    disableFingerprinting: true
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+
+  label:
+    text: " "
+    icon: "images/home_img/icon.png"
+    iconHeight: 70
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Hi, I'm Adrian 🇮🇩"
+    subtitle: "A math graduate from ITS and a passionate data engineer and data scientist who transforms raw data into impactful insights that drive business success."
+    imageUrl: "images/home_img/dp.jpg"
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: "Adrian Maulana Muhammad"
+    # buttons:
+    #   - name: Blogs
+    #     url: blogs
+    #   - name: Projects
+    #     url: projects
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Adrian Maulana Muhammad"
+    Content: "A math graduate from ITS and a passionate data engineer and data scientist who transforms raw data into impactful insights that drive business success."
+
+  socialIcons:
+    - name: email
+      url: "mailto:adrian.m.muhammad@gmail.com"
+    - name: cv
+      url: "https://bit.ly/CV-Adrian"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/adrn-mm/"
+    - name: github
+      url: "https://github.com/adrn-mm"
+    - name: medium
+      url: "https://medium.com/@adrn-mm"
+    - name: kaggle
+      url: "https://www.kaggle.com/adrianmaulana"
+    - name: twitter
+      url: "https://twitter.com/adrn_mm"
+    - name: youtube
+      url: "https://www.youtube.com/channel/UCpXT27SKJ39y81g_hqoswig"
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+    linkFullImages: true
+
+
+  editPost:
+#    URL: "https://github.com/chanin-www/content"
+#    Text: "Suggest Changes" # edit text
+    URL: ""
+    Text: "" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: blogs
+      name: Blogs
+      url: /blogs/
+      weight: 2
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 3
+    - identifier: visualizations
+      name: Visualizations
+      url: /visualizations/
+      weight: 4
+    - identifier: careers
+      name: Careers
+      url: /careers/
+      weight: 5
+    - identifier: tags
+      name: Tags
+      url: tags/
+      weight: 6
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 7
+    
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
