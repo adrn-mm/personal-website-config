@@ -302,7 +302,7 @@ toc-container.wide .toc .inner {
 
 .active {
     font-weight: 600;
-    color: rgb(96, 165, 250);
+    color: white;
 }
 
 .toc ul {
