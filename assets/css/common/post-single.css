@@ -257,34 +257,18 @@
 .toc {
     margin: 0 2px 40px 2px;
     border: 1px solid var(--border);
-    background: var(--entry);
+    background: var(--code-bg);
     border-radius: var(--radius);
-    padding: 0em;
+    padding: 0.4em;
 }
 
-.toc-container.wide {
-    position: absolute;
-    height: 100%;
-    border-right: 1px solid var(--border);
-    left: calc((var(--toc-width) + var(--gap)) * -1);
-    top: calc(var(--gap) * 2);
-    width: var(--toc-width);
-}
-
-.wide .toc {
-    position: sticky;
-    top: var(--gap);
-    border: unset;
-    background: unset;
-    border-radius: unset;
-    width: 100%;
-    margin: 0 2px 40px 2px;
+.dark .toc {
+    background: var(--entry);
 }
 
 .toc details summary {
     cursor: zoom-in;
     margin-inline-start: 20px;
-    padding: 12px 0;
 }
 
 .toc details[open] summary {
@@ -293,31 +277,16 @@
 
 .toc .details {
     display: inline;
-    font-weight: 400;
-}
-
-toc-container.wide .toc .inner {
-    margin: 0;
-}
-
-.active {
-    font-weight: 600;
-    color: white;
-}
-
-.toc ul {
-    list-style-type: circle;
+    font-weight: 500;
 }
 
 .toc .inner {
-    margin: 0 0 0 20px;
-    padding: 0px 15px 15px 20px;
-    font-size: 16px;
+    margin: 0 20px;
+    padding: 10px 20px;
 }
 
 .toc li ul {
-    margin-inline-start: calc(var(--gap) * 0.5);
-    list-style-type: none;
+    margin-inline-start: var(--gap);
 }
 
 .toc summary:focus {
@@ -339,6 +308,7 @@ toc-container.wide .toc .inner {
 .paginav {
     border-radius: var(--radius);
     background: var(--code-bg);
+    border: 1px solid var(--border);
 }
 
 .post-tags a {
@@ -353,8 +323,7 @@ toc-container.wide .toc .inner {
 
 .post-tags a:hover,
 .paginav a:hover {
-    background: rgb(96, 165, 250);
-    color: white;
+    background: var(--border);
 }
 
 .share-buttons {
@@ -403,7 +372,7 @@ h6:hover .anchor {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: small;
-    color: white;
+    color: var(--secondary);
 }
 
 .paginav .prev,

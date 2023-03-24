@@ -28,5 +28,5 @@ draft: false
 # Certifications
 
 - ### AWS re/Start Graduate
-  [Certificate Credentials](https://www.credly.com/badges/c7e230f4-ef1c-4764-91fa-d46d6d2bd529)  
+  [**Certificate Credentials**](https://www.credly.com/badges/c7e230f4-ef1c-4764-91fa-d46d6d2bd529)  
   Issued Dec 2022

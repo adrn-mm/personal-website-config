@@ -11,7 +11,6 @@ cover:
   alt: 
   caption: 
   relative: true
-showtoc: true
 draft: false
 ---
 

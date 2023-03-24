@@ -24,10 +24,9 @@ params:
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: dark # dark, light
-  disableThemeToggle: true
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
   math: True
-  TocSide: 'right'
 
   assets:
     disableHLJS: true 
@@ -44,19 +43,19 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: true
-  tocopen: true
+  showtoc: false
+  tocopen: false
 
   label:
-    text: " "
-    icon: "images/home_img/icon.png"
+    text: "Adrian Maulana M."
+    # icon: "images/home_img/icon.png"
     iconHeight: 70
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Hi, I'm Adrian 🇮🇩"
-    subtitle: "A math graduate from ITS and a passionate data engineer and data scientist who transforms raw data into impactful insights that drive business success."
+    subtitle: "A math graduate and a passionate full stack data scientist who transforms raw data into impactful insights that drive business success."
     imageUrl: "images/home_img/dp.jpg"
     imageWidth: 200
     imageHeight: 200
@@ -87,8 +86,6 @@ params:
       url: "https://www.kaggle.com/adrianmaulana"
     - name: twitter
       url: "https://twitter.com/adrn_mm"
-    - name: youtube
-      url: "https://www.youtube.com/channel/UCpXT27SKJ39y81g_hqoswig"
 
   # analytics:
   #   google:
