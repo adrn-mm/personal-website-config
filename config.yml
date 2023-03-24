@@ -55,16 +55,16 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Hi, I'm Adrian 🇮🇩"
-    subtitle: "A math graduate and a passionate full stack data scientist who transforms raw data into impactful insights that drive business success."
+    subtitle: "A math graduate from ITS Surabaya and a passionate full stack data scientist who transforms raw data into impactful insights that drive business success."
     imageUrl: "images/home_img/dp.jpg"
     imageWidth: 200
     imageHeight: 200
     imageTitle: "Adrian Maulana Muhammad"
-    # buttons:
-    #   - name: Blogs
-    #     url: blogs
-    #   - name: Projects
-    #     url: projects
+    buttons:
+      - name: 🔖 Tags
+        url: tags/
+      - name: 🔎 Search
+        url: /search/
 
   # home-info mode
   homeInfoParams:
@@ -141,15 +141,6 @@ menu:
       name: Careers
       url: /careers/
       weight: 5
-    - identifier: tags
-      name: Tags
-      url: tags/
-      weight: 6
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 7
-    
 
 outputs:
     home:
