@@ -54,7 +54,7 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: "Hi, I'm Adrian"
+    title: "Hi, I'm Adrian \U0001F44B"
     subtitle: "I am a Mathematics graduate from Institut Teknologi Sepuluh Nopember (ITS) in Indonesia 🇮🇩 and a passionate **full-stack data scientist** who transforms raw data into impactful insights. I also enjoy analyzing business cases. Feel free to contact me via the social media platforms listed below."
     imageUrl: "images/home_img/dp.jpg"
     imageWidth: 220
@@ -62,7 +62,7 @@ params:
     imageTitle: "Adrian Maulana Muhammad"
     buttons:
       - name: 📄 CV
-        url: "https://bit.ly/CV-Adrian"
+        url: "https://bit.ly/CV-Adrian-2023"
         newTab: true
       - name: 🔖 Tags
         url: tags/
