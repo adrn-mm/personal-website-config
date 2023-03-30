@@ -1,5 +1,5 @@
 # Project Description
-All configurations for my personal website. The website is built using [Hugo](https://gohugo.io/) and the [Papermod Theme](https://github.com/adityatelange/hugo-PaperMod)
+All configurations for my personal website.
 
 # Features
 - KaTex
