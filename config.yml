@@ -62,12 +62,11 @@ params:
     imageTitle: "Adrian Maulana Muhammad"
     buttons:
       - name: 📄 CV
-        url: "https://bit.ly/CV-Adrian-2023"
+        url: "https://tinyurl.com/CV-Adrian"
         newTab: true
-      - name: 🔖 Tags
-        url: tags/
-      - name: 🔎 Search
-        url: /search/
+      - name: 📊 Portfolio
+        url: 
+        newTab: false
 
   # home-info mode
   homeInfoParams:
@@ -99,8 +98,8 @@ params:
   cover:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
-    linkFullImages: true
+    hiddenInSingle: true # hide on single page
+    linkFullImages: false # link full images
 
 
   editPost:
@@ -142,6 +141,14 @@ menu:
       name: Careers
       url: /careers/
       weight: 5
+    - identifier: tags
+      name: Tags
+      url: tags/
+      weight: 6  
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 7
 
 outputs:
     home:
