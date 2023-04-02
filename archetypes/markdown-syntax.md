@@ -1,17 +1,17 @@
 ---
-title: "Blog 1"
-date: 2023-03-18
-slug: blog-1
-tags: ["Template", "Tags"]
-summary: Test
-weight: 1
-description: 
-cover: 
-  image: 
-  alt: 
-  caption: 
-  relative: true
-draft: false
+# title: "Blog 1"
+# date: 2023-03-18
+# slug: blog-1
+# tags: ["Template", "Tags"]
+# summary: Test
+# weight: 1
+# description: 
+# cover: 
+#   image: 
+#   alt: 
+#   caption: 
+#   relative: true
+# draft: false
 ---
 
 # Introduction
