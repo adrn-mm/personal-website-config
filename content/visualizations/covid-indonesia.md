@@ -6,6 +6,7 @@ tags: ["Looker Studio", "Data Visualization"]
 summary: This dashboard displays the development of COVID-19 cases across all provinces in Indonesia.
 weight: 2
 description: This dashboard displays the development of COVID-19 cases across all provinces in Indonesia.
+images: "images/viz_img/covid-indonesia.png"
 cover: 
   image: "images/viz_img/covid-indonesia.png"
   alt: 
