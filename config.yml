@@ -156,6 +156,12 @@ outputs:
         - RSS
         - JSON # is necessary
 
+markup:
+  defaultMarkdownHandler: "goldmark"
+  goldmark:
+    renderer:
+      unsafe: true # Enable user to embed HTML snippets in Markdown content.
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
