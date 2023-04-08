@@ -11,7 +11,7 @@ cover:
   alt: 
   caption: 
   relative: true
-draft: false
+draft: true
 ---
 
 ## Introduction

@@ -15,8 +15,6 @@ cover:
 draft: false
 ---
 
-Please wait until the dashboard below is loaded.
+Please wait until the dashboard below is loaded or you can view the full version of this dashboard in this [link](https://lookerstudio.google.com/reporting/ee3bd0a3-6b11-49c7-a320-b4b4768019a7).
 
-<iframe width="700" height="436" src="https://lookerstudio.google.com/embed/reporting/ee3bd0a3-6b11-49c7-a320-b4b4768019a7/page/bxIFD" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-You can view the full version of this dashboard in this [link](https://lookerstudio.google.com/reporting/ee3bd0a3-6b11-49c7-a320-b4b4768019a7).
+<iframe width="600" height="336" src="https://lookerstudio.google.com/embed/reporting/ee3bd0a3-6b11-49c7-a320-b4b4768019a7/page/bxIFD" frameborder="0" style="border:0" allowfullscreen></iframe>
