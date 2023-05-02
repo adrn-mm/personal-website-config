@@ -55,14 +55,14 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Hi, I'm Adrian \U0001F44B"
-    subtitle: "A mathematics graduate from Institut Teknologi Sepuluh Nopember (ITS) in Indonesia 🇮🇩 and a passionate **Data Engineer** who transforms raw data into impactful insights. I also enjoy analyzing business case. You can contact me via the social media platforms below:"
-    imageUrl: "images/home_img/dp.jpg"
+    subtitle: "A mathematics graduate from Institut Teknologi Sepuluh Nopember (ITS) in Indonesia 🇮🇩 and a passionate **data engineer** who transforms raw data into impactful insights. You can contact me via the social media platforms below:"
+    imageUrl: "images/home_img/dp.jpeg"
     imageWidth: 220
     imageHeight: 220
     imageTitle: "Adrian Maulana Muhammad"
     buttons:
       - name: 📄 CV
-        url: "https://tinyurl.com/CV-Adrian"
+        url: "https://tinyurl.com/CV-Adrian-Maulana-Muhammad"
         newTab: true
       - name: 📊 Portfolio
         url: 
@@ -84,6 +84,10 @@ params:
       url: "https://medium.com/@adrn-mm"
     - name: kaggle
       url: "https://www.kaggle.com/adrianmaulana"
+    - name: hackerrank
+      url: "https://www.hackerrank.com/adriantoto7"
+    - name: youtube
+      url: "https://www.youtube.com/@adrian-maulana"
     - name: twitter
       url: "https://twitter.com/adrn_mm"
 
